@@ -1,5 +1,8 @@
-# NewsApp
-A simple new application created in android studio using newsapi.org(for country news), alphavantage.co(for currency conversion), openweathermap.org(for weather report).
+Github link – Link
+Appetize.io = Link 
+Name – Sachin Kumar
+PS No - 99002462
+A simple new application created in android studio using newsapi.org (for country news), alphavantage.co (for currency conversion), openweathermap.org(for weather report).
 Features:-
 1.News sort by country
 2.Good UI
@@ -7,14 +10,17 @@ Features:-
 4.Weather report by location
 5.Dynamic currency exchange rates
 6.Used Retrofit Network
+7. Suppport Hinidi Language
+8. Database in shared preference
 # Hello :wave:
-Welcome to **All in One** Project. It is a general perpous app.<br/>
-It uses many APIs to display information. It shows country specific new, weather of current location, movies rating, currency exchange rate, and memes<br />
-## Technology/ Stack used :mortar_board:
+Welcome to All in One Project. It is a general app.
+It uses many APIs to display information. It shows country specific new, weather of current location, movies rating, currency exchange rate, and memes
+## Technology used
 - Java 
 - XML
 - Android Studio
 - Retrofit
+
 
 ## Screenshots :camera:
 
