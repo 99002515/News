@@ -1,5 +1,4 @@
-Github link – Link
-Appetize.io = Link 
+Appetize.io = https://appetize.io/app/gafjv320w0jrvzfc2p9rbrnu60?device=nexus5&scale=75&orientation=portrait&osVersion=8.1
 Name – Sachin Kumar
 PS No - 99002462
 A simple new application created in android studio using newsapi.org (for country news), alphavantage.co (for currency conversion), openweathermap.org(for weather report).
