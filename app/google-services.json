@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "246528061646",
+    "firebase_url": "https://allinone-68478.firebaseio.com",
+    "project_id": "allinone-68478",
+    "storage_bucket": "allinone-68478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246528061646:android:3cf3440527c92401e1609f",
+        "android_client_info": {
+          "package_name": "com.example.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246528061646-2vofa5nmfthpbtl9mgejn2po2cgrdu58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZGmPSGx85ixDSIuv-wMY3SnoezgJ98lc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246528061646-2vofa5nmfthpbtl9mgejn2po2cgrdu58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

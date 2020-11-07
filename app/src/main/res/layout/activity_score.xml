@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryLight"
+    tools:context=".movieFile.ScoreActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/scoreToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/colorPrimaryLight"
+        android:elevation="6dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <com.synnapps.carouselview.CarouselView
+        android:id="@+id/carouselView"
+        android:layout_width="match_parent"
+        android:layout_below="@id/scoreToolbar"
+        android:layout_height="200dp"
+        app:fillColor="#ffffff"
+        app:pageColor="#000"
+        app:radius="6dp"
+        app:slideInterval="3000"
+        app:strokeColor="#FF777777"
+        app:strokeWidth="1dp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/carouselView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/bevan"
+        android:text="Search Movie and \n     TV shows here"
+        android:textColor="@color/colorBlack"
+        android:textSize="24dp" />
+
+        <EditText
+            android:id="@+id/searchEt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview"
+            android:minWidth="200dp"
+            android:layout_centerHorizontal="true"
+            android:hint="Search ex. Tenet"
+            android:gravity="center"
+            android:background="@drawable/shape_rect_white"
+            android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchEt"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Search"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background= "@drawable/shape_rect" />
+
+
+</RelativeLayout>

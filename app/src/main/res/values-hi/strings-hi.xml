@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name = "app_name"> समाचार-जानकारी </string>
+    <string name = "title"> Title </string>
+    <string name = "date"> Date </string>
+    <string name = "todo"> TODO </string>
+    <string name = "welcome_user"> प्लेस फॉर फन </string>
+    <string name = "share"> Share </string>
+    <string name = "next"> अगला </string>
+    <string name = "currency_converter"> मुद्रा परिवर्तक </string>
+    <string name = "enter_amount"> राशि दर्ज करें </string>
+    <string name = "usd"> USD </string>
+    <string name = "search_ex_tenet"> खोज पूर्व। सिद्धांत </string>
+    <string name = "search_movie_and_n_tv_shows_here"> यहां मूवी और \ n टीवी शो खोजें </string>
+    <string name = "search"> Search </string>
+    <string name = "release"> Release: - </string>
+    <string name = "about"> About </string>
+    <string name = "feedback"> फ़ीडबैक </string>
+    <string name = "android"> Android </string>
+    <string name = "ios"> iOS </string>
+    <string name = "contact"> Contact </string>
+    <string name = "settings"> Settings </string>
+</resources>
