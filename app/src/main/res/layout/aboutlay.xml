@@ -13,7 +13,7 @@
         android:layout_height="160dp"
         android:layout_gravity="center"
         android:layout_margin="30dp"
-        android:text="This Project is about News and Information"
+        android:text="This application is about news and day to day activity in one place"
         android:textColor="@color/colorPrimary"
         android:textSize="32dp"
         android:textStyle="bold"
