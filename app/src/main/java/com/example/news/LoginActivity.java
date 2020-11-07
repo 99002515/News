@@ -31,34 +31,36 @@ public class LoginActivity extends AppCompatActivity {
 
 
         registerbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.v(TAG,"Registration Button clicked");
-                String user=nametext.getText().toString();
-                String email=emailtext.getText().toString();
-                if(user.equals("")||email.equals(""))
-                    Toast.makeText(LoginActivity.this,"Please enter all the fields",Toast.LENGTH_SHORT).show();
-                else if(emailtext.getText().toString().trim().matches(emailPattern)) {
-                    Boolean checkuser=DB.checkusername(user);
-                    if(checkuser==false){
-                        Boolean insertData=DB.insertData(user,email);
-                        if(insertData==true){
-                            Toast.makeText(LoginActivity.this, "Registered Sucessfully", Toast.LENGTH_SHORT).show();
-                            Intent intent=new Intent(getApplicationContext(),LoginActivity.class);
-                            startActivity(intent);
-                        }
-                        else{
-                            Toast.makeText(LoginActivity.this,"Registration Failed",Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                    else{
-                        Toast.makeText(LoginActivity.this,"You Have Registered Already..!Start the Test",Toast.LENGTH_SHORT).show();}
-                }
-                else
-                {
-                    emailtext.setError("Enter valid Email Address!");
-                }
+            public void onClick(View v) {
+                // Code here executes on main thread after user presses button
+                startActivity(new Intent(LoginActivity.this,signUp.class));
             }
+//                Log.v(TAG,"Registration Button clicked");
+//                String user=nametext.getText().toString();
+//                String email=emailtext.getText().toString();
+//                if(user.equals("")||email.equals(""))
+//                    Toast.makeText(LoginActivity.this,"Please enter all the fields",Toast.LENGTH_SHORT).show();
+//                else if(emailtext.getText().toString().trim().matches(emailPattern)) {
+//                    Boolean checkuser=DB.checkusername(user);
+//                    if(checkuser==false){
+//                        Boolean insertData=DB.insertData(user,email);
+//                        if(insertData==true){
+//                            Toast.makeText(LoginActivity.this, "Registered Sucessfully", Toast.LENGTH_SHORT).show();
+//                            Intent intent=new Intent(getApplicationContext(),LoginActivity.class);
+//                            startActivity(intent);
+//                        }
+//                        else{
+//                            Toast.makeText(LoginActivity.this,"Registration Failed",Toast.LENGTH_SHORT).show();
+//                        }
+//                    }
+//                    else{
+//                        Toast.makeText(LoginActivity.this,"You Have Registered Already..!Start the Test",Toast.LENGTH_SHORT).show();}
+//                }
+//                else
+//                {
+//                    emailtext.setError("Enter valid Email Address!");
+//                }
+
 
 
         });
